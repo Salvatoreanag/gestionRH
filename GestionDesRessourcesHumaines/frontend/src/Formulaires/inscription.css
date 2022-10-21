@@ -1,0 +1,84 @@
+.back{
+    background-image: url('./sebastian-svenson-d2w-_1LJioQ-unsplash.jpg');
+    background-repeat: no-repeat;
+
+}
+.bords{
+    border-radius: 1rem;
+    height: 43.9em;
+    /* border: 1px solid; */
+}
+
+.image{
+    border-radius: 1rem 0 0 1rem;
+    height: 43.9em;
+
+    
+}
+.space{
+    letter-spacing: 1px;
+    color: rgb(255,128,0);
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.taille_image{
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+.vh-100 {
+    height: 100vh!important;
+}
+/* .fond_bleu{
+    background-color: rgb(0,0,170);
+} */
+.boutons:hover{
+    background-color: rgb(255,128,0);
+    }
+    
+
+.boutons:hover{
+    background-color: rgb(255,128,0);
+}
+    
+.boutons{
+    border:none;
+    border-color:rgb(255,128,0) ;
+    /* /*border-radius: 5px; */
+    box-shadow: 0px 0px 10px rgba(0, 0, 170, 0.2);
+}
+.boutons:active{
+    box-shadow: 0px 0px 10px rgba(0, 0, 170, 0.726);      
+} 
+.espace{
+    height: 1px;
+    font-size: 1em;
+    margin-bottom: 0.1em;
+}
+
+.message{
+    font-weight: 'bold';
+    color: red;
+}
+.corps{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 20px 0;
+    
+}
+form{
+    flex: 0 0 100%;
+}
+.toggleForm{
+    visibility:hidden;
+    opacity: 0;
+     /* opacity: 0.3s; */
+    /* visibility: 0.3s; */
+    transition-property: opacity 0.3s, visibility 0.3s;
+}  
+.erreur{
+    font-weight: bold;
+    color: red;
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif;
+}

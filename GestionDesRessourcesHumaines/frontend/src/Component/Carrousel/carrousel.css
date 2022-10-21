@@ -1,0 +1,77 @@
+.rouge{
+    color:rgb(255,128,0);
+}
+.cadre{
+    position: absolute;
+    /* top:50%; */
+    left:50%;
+    width: 600px;
+    height: 600px;
+    /* margin-top:200px ; */
+    margin-left:-450px ;
+    border-radius: 2px;
+    overflow: hidden;
+  }
+  .centre{
+    position: absolute;
+    width:100%;
+    top:25%;
+    left: 50;
+    right: 50;
+    margin-top: -22.5px; 
+  }
+  .carousel{
+    position: relative;
+    width:100%;
+    height: 45px;
+    text-align: center;
+    font-size: 19px;
+    line-height: 45px;
+  }
+  /* .carousel .preText{
+    position: absolute;
+    top:0;
+    right:47%;
+    height:45px;
+    text-shadow:2px 2px 2px ;
+  } */
+  .carousel .changeHidden{
+    position: absolute;
+    top:0;
+    left: 55%;
+    text-align: left;
+    height: 45px;
+    overflow: hidden;
+  }
+  .carousel .changeHidden .contenant{
+    position: relative;
+    animation: carousel 15s ease-in-out infinite;
+    /* background-color: rgb(215,215,215); */
+  
+  }
+  .carousel .changeHidden .element{
+    color: rgb(30, 40, 189);
+    font-size: 26px;
+    font-style: italic;
+    display: inline-block;
+    font-weight: 700;
+    /* text-shadow: 2px 2px 2px; */
+  }
+  
+  @keyframes carousel{
+    0%, 20%{
+      transform: translateY(0);
+    }
+    25%, 45%{
+      transform: translateY(-45px);
+    } 
+    50%, 70%{
+      transform: translateY(-90px);
+    }
+     75%, 95%{
+      transform: translateY(-135px);
+    } 
+    100%{
+      transform: translateY(-180px);
+    }
+  }

@@ -1,0 +1,46 @@
+.gradient-custom-2 {
+    background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+    background: rgba(0, 0, 170, 0.756);
+
+    }
+    
+    @media (min-width: 768px) {
+    .gradient-form {
+    height: 100vh !important;
+    }
+    }
+ @media (min-width: 769px) {
+ .gradient-custom-2 {
+ border-top-right-radius: .3rem;
+ border-bottom-right-radius: .3rem;
+    }
+    }
+ a:hover{
+    color: rgb(255,128,0);
+    }
+ /* .boutons:hover{
+    background-color: rgb(255,128,0);
+    }
+
+    
+.boutons{
+    border:none;
+    border-color:rgb(255,128,0) ;
+    border-radius: 5px; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 170, 0.2);
+}
+.boutons:active{
+    box-shadow: 0px 0px 10px rgba(0, 0, 170, 0.726);      
+}  */
+.taille_image{
+    max-width: 185px;
+}
+.bordure{
+    border-radius:50px;
+}
+/* .fond_bleu{
+    background-color: rgb(0,0,170);
+} */
+.liste{
+    text-align:justify;
+}
